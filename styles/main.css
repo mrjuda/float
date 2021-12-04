@@ -11,17 +11,20 @@ header {
 p {
   /* margin: 5%; */
   /* color: rgb(66, 86, 122); */
+  padding: 10px 10px;
 }
 
 .container {
-  width: 900px;
+  width: 700px;
   margin: 0 auto;
 }
 
 .navigation {
-  /* position: fixed; */
+  position: fixed;
   height: 50px;
   background: #f1073a;
+  width: 740px;
+  z-index: 1;
 }
 
 .navigation a {
@@ -30,8 +33,8 @@ p {
   color: #fff;
   text-decoration: none;
   padding: 20px 20px;
-  line height: 50px;
-  border-right: 2px solid #ad0026;
+  /* line height: 80px; */
+  /* border-right: 1px solid #ad0026; */
   font-weight: 700;
 }
 
@@ -43,7 +46,7 @@ p {
 
 #content {
   position: relative;
-  padding: 20px 250px 60px 20px;
+  padding: 80px 250px 60px 20px;
   background: #fff;
 }
 
@@ -51,9 +54,10 @@ p {
   position: absolute;
   top: 100px;
   bottom: 100px;
-  right: -80px;
+  right: -10px;
   width: 210px;
-  padding: 0 20px;
+  height: fit-content;
+  padding: 20px 20px;
   border-top: 5px solid #f95b34;
   background: #fa8366;
 }
@@ -61,7 +65,7 @@ p {
 #footer {
   position: fixed;
   bottom: 0;
-  width: 860px;
+  width: 700px;
   padding: 0 20px;
   height: 50px;
   color: #cf909e;
