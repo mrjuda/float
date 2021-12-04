@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  font-weight: bolder;
+  color: darkblue;
+}
+
+p {
+  color: rgb(66, 86, 122);
+}
+
+img {
+  float: right;
+  margin: 10px;
+}
