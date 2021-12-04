@@ -12,6 +12,27 @@ p {
 }
 
 img {
-  float: right;
-  margin: 10px;
+  float: left;
+  margin: 0.5rem;
 }
+
+.block {
+  width: 200px;
+  height: 200px;
+}
+
+.float { float: left }
+
+.pink {
+  background-color: magenta;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.orange { background: orange }
