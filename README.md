@@ -1,5 +1,5 @@
 # Float/Position practices
-> This is a <float> and <position> class practie, made as part of the Microverse Program.
+> This is a FLOAT and POSITION class practice, made as part of the Microverse Program.
 
 ## Built with
 - HTML
